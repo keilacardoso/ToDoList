@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="/imagens/Icon.svg">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ToDo List</title>
+</head>
+<body>
+    
+    <main class ="container" role="main">
+        <h1 class="display-3 text-center text-white">ToDo List</h1>
+
+        <div class="row">
+            <div class="col-12 col-lg-8 offset-lg-2">
+                <div class="card">
+                    <div class="card-body">
+                    <form id="form_task">
+                        <div class="form-group">
+                            <label class="form-label" for="input_task">Tarefa</label>
+                            <input type="text" id="input_task" placeholder="O que deve ser feito?" class="form-control">
+                            <div class="invalid-feedback">
+
+                            </div>
+                        </div>
+                    </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-12 col-lg-8 offset-lg-2">
+                <div class="card">
+                    <div class="card-header">
+                        Suas Tarefas
+                    </div>
+                        
+                        <ul class="list-group list-group-flush overflow-auto lista-size overflow-hidden" id="tasks">
+
+                        </ul>
+                    <div class="card-footer text-end">
+                        <button type="button" class="btn btn-secondary" id="done_btn">Concluir Tarefas</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/application.js"></script>
+</body>
+</html>

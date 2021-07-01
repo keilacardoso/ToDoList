@@ -1,0 +1,16 @@
+body{
+    padding-top: 5%;
+    background-color: #373C6E;
+}
+button{
+    margin-top: 2%;
+}
+.card{
+    box-shadow: rgb(37,37,37);
+}
+.lista-size{
+    max-height: 500px;
+}
+.list-group li:hover{
+background-color: #d2d3d8;
+}
